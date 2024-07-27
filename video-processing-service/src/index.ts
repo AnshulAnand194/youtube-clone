@@ -1,5 +1,6 @@
 import express from 'express';
 import ffmpeg from 'fluent-ffmpeg'
+import ffmpegPath from 'ffmpeg-static';
 
 const app = express();
 app.use(express.json());
